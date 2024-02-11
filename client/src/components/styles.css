@@ -1,0 +1,106 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+main{
+    background-color: rosybrown;
+}
+
+/* Encabezado */
+header {
+    background: #333;
+    color: whitesmoke;
+    text-align: center;
+    padding: 20px 0;
+}
+
+.perfil {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 0 20px;
+}
+
+.perfil img {
+    border-radius: 50%;
+    width: 150px;
+    height: 150px;
+    margin-left: 20px;
+}
+
+/* Información */
+.informacion {
+    background: whitesmoke;
+    padding: 20px;
+    border-radius: 10px;
+    margin: 20px;
+    max-width: 430px;
+}
+
+.informacion h2{
+    border-radius: 10px;
+    background: lightskyblue;
+    text-align: center;
+}
+
+
+.infoContenedor{
+    border-radius: 10px;
+    background-color: lightgreen;
+    padding: 5px;
+}
+
+/* Estadísticas */
+.estadisticas {
+    justify-content: left;
+    background: whitesmoke;
+    padding: 20px;
+    border-radius: 10px;
+    margin: 20px;
+    max-width: 430px;
+}
+
+.estadisticas h2{
+    border-radius: 10px;
+    background: lightskyblue;
+    text-align: center;
+}
+
+
+.estadiContenedor {
+    display: flex;
+    border-radius: 10px;
+    background-color: lightgreen;
+    padding: 5px;
+}
+
+.estadistica {
+    text-align: center;
+    margin: 0 20px;
+}
+
+/* Footer */
+footer {
+    background: #333;
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+}
+
+.rrss{
+    display: flex;
+    align-items: center;
+}
+
+.contacto, .rrss {
+    display: inline-block;
+    margin: 0 20px;
+}
+
+.rrss a {
+    text-decoration: none;
+    color: whitesmoke;
+    margin: 5px 0;
+}
